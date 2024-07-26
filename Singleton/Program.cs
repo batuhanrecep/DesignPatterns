@@ -51,8 +51,8 @@ namespace Singleton
                 //Thread safe singleton version
                 lock (_lockObject)
                 {
-                    if (_customerManager == null) 
-                    { 
+                    if (_customerManager == null)
+                    {
                         _customerManager = new CustomerManager();
                     }
                 }
