@@ -11,6 +11,9 @@ namespace Facade
     {
         static void Main(string[] args)
         {
+            //the Facade design pattern simplifies interactions with a complex system by providing a unified and easy-to - use interface,
+            //thereby reducing the complexity for the client and promoting better code organization and decoupling.
+
             CustomerManager customerManager = new CustomerManager();
             customerManager.Save();
 
