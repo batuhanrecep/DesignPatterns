@@ -12,6 +12,11 @@ namespace Proxy
         {
             //The Proxy design pattern provides a surrogate or placeholder for another object, controlling access to it and adding additional behavior,
             //such as lazy initialization, access control, or logging, without modifying the original object's code.
+
+
+
         }
     }
+
+
 }
